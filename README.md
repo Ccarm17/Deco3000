@@ -7,5 +7,5 @@ Sculpture (ccc01)
 
 ## Audio naming convention
 folders 01-99, each with files 001.mp3-255.mp3  
-imagine-illuminate groupe (folder: 001)  
-Germinate-symbiosis-rejuvinate group (folder: 002)  
+imagine-illuminate groupe (folder: 01)  
+Germinate-symbiosis-rejuvinate group (folder: 02)  
