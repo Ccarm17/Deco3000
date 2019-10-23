@@ -23,7 +23,7 @@ const char* ssid = "Deco3000";
 const char* password = "42563808";
 
 // IP address of the raspberry pi
-const char* mqtt_server = "192.168.1.101";
+const char* mqtt_server = "192.168.8.104";
 
 // Uniqe client ID 
 const char *ID = "gsrB";
@@ -54,7 +54,7 @@ const int pirPin = 13;
 
 //Neopixel pin number and number of led's
 #define PIXEL_PIN    21
-#define PIXEL_COUNT 18
+#define PIXEL_COUNT 403
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
 
 HardwareSerial mySoftwareSerial(1);
@@ -211,7 +211,7 @@ void reconnect() {
   }
 }
 void loop() {
-  
+  rainbow(10);
   if (!client.connected()) {
     reconnect();
   }
