@@ -18,7 +18,11 @@
 
 					<ul>
 						<li><a href="#emotion">E-Motion</a></li>
-						<li><a href="#undulate">Undulate</a></li>
+						<li class="accordion"><a href="#undulate">Undulate <i class="fas fa-angle-down"></i></a></li>
+							<ul class="panel">
+								<li><a href="#undulateprocess">Design Process</a></li>
+								<li><a href="#undulatereflection">Reflection</a></li>
+							</ul>
 						<li class="accordion"><a href="#floral">Floral Symphony <i class="fas fa-angle-down"></i></a></li>
 							<ul class="panel">
 								<li><a href="#floralintroduction">Introduction</a></li>
@@ -68,28 +72,119 @@
 
 					<section id="undulate">
 						<h2>Undulate</h2>
-						<img src="website/images/fulls/01.jpg" alt="">
-						<p>Undulate is an interactive exhibit designed to allow participants to ‘take the emotional pulse of UQ.’ The rolling structure listens to mentions of UQ related hashtags on Twitter, and creates light and sound in response. Through sound users can hear the average sentiment expressed recently, and the lights each represent an individual sentiment. As sentiments come in through Twitter they are propagated through the structure. This combination of time, light and sound shows the speed of the Twitter conversation, while expressing it in a novel and directly emotional way. The use of social media allows users to directly interface with the installation, as well as to do so incidentally.</p>
-
-						<h3>Undulate Design Process</h3>
-						<p>
-							Design process text here
-						</p>
-
 						<div class="box alt">
 							<div class="row gtr-50 gtr-uniform">
-								<div class="col-12"><span class="image fit"><img src="website/images/fulls/05.jpg" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="website/images/thumbs/01.jpg" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="website/images/thumbs/02.jpg" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="website/images/thumbs/03.jpg" alt="" /></span></div>
-								<div class="col-6"><span class="image fit"><img src="website/images/thumbs/04.jpg" alt="" /></span></div>
+								<div class="col-12"><span class="image fit"><img src="website/images/un00.jpg" alt="Undulate" /></span></div>
 							</div>
 						</div>
+						<p>Undulate is an interactive exhibit designed to allow participants to ‘take the emotional pulse of UQ.’ The rolling structure listens to mentions of UQ related hashtags on Twitter, and creates light and sound in response. Through sound users can hear the average sentiment expressed recently, and the lights each represent an individual sentiment. As sentiments come in through Twitter they are propagated through the structure. This combination of time, light and sound shows the speed of the Twitter conversation, while expressing it in a novel and directly emotional way. The use of social media allows users to directly interface with the installation, as well as to do so incidentally.</p>
+
+						<h3 id="undulateprocess">Design Process</h3>
+						<p>
+							The team behind Undulate is comprised of architecture, music and IT students. We met weekly to work on the project conceptually. Early on in the process we settled on the tagline of ‘take the emotional pulse of UQ,’ which informed our decisions going forward. The team naturally split into three sub-teams based along school lines, with architecture, music, and IT students working mostly independently, and with whole team meetings occurring weekly. The shared vision for the project allowed for a certain level of independence without enough divergence to cause serious issues. The project went through many iterations before settling on it’s final form, the most formative of which are covered below.
+						</p>
+
+						<h4>Process - built form</h4>
+						<p>
+							The built form of the structure went through many iterations.
+							<ol>
+								<li>
+									A field of small flowers stuck in the ground. Each flower would light up and produce sound, and be associated with one sentiment.
+									<ul>
+										<li>This was considered unacceptable as the risk of users damaging the components was too high.</li>
+									</ul>
+								</li>
+								<li>
+									A reciprocal structure ‘cave’ hanging above a walkway. This essentially moves the field above the users, reducing the risk of them damaging the structure. Lights are now strung along the structure, so users can look up to see the ‘flowers.’
+									<ul>
+										<li>This was unacceptable due to potential danger to the users of the structure collapsing on them, and subsequently the difficulty of getting the structure certified.</li>
+									</ul>
+								</li>
+								<li>
+									While retaining the construction method, the structure moved to the ground. Now instead of users walking under the structure they walk around the structure, reducing the risk to both users and the structure. This differs from the original flower design in that it is now one structure with lights strung instead of individual flowers which can be easily removed or damaged.
+									<ul>
+										<li>Risks were identified of the structure being damaged by users, but this risk was considered acceptable as it was less likely than with the original ‘field’ design.</li>
+									</ul>
+								</li>
+							</ol>
+						</p>
+
+						<h4>Process - sentiments</h4>
+						<p>
+							We knew that emotions needed to be collected from users to be encoded into light and sound. A number of designs were considered.
+							<ol>
+								<li>
+									A survey screen. Users can input their emotion manually on a 1-10 scale.
+									<ul>
+										<li>We identified that users may not be reliable indicators of their own emotional state, and may not want to publicly express their emotion, so looked for something less explicit.</li>
+										<li>A few more ideas came about such as users putting a token in a well, which represented their emotion, but ultimately these were merely different interfaces for the same interaction.</li>
+									</ul>
+								</li>
+								<li>
+									Scan people’s faces when they walk in. Use cloud computing to ascertain their emotion.
+									<ul>
+										<li>The privacy concern here are atrocious, and the idea was quickly dismissed. In a gallery or similar space where participants can be made aware of the use of their data this could be interesting, but in a public outdoor thoroughfare this would have too many risks.</li>
+									</ul>
+								</li>
+								<li>
+									Collect emotions from social media, and use sentiment analysis to determine emotion.
+									<ul>
+										<li>We could only collect public information, reducing the privacy concerns.</li>
+										<li>Relies on the users having access to social media.</li>
+										<li>We considered this risk acceptable, and considering this would allow a more natural communication with the installation, went for this option.</li>
+									</ul>
+								</li>
+							</ol>
+						</p>
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-6"><span class="image fit"><img src="website/images/un2.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un3.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un4.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un5.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un6.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un7.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un8.jpg" alt="" /></span></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un9.jpg" alt="" /></span></div>
+								<div class="col-3"></div>
+								<div class="col-6"><span class="image fit"><img src="website/images/un10.jpg	" alt="" /></span></div>
+							</div>
+						</div>
+
+						<h3 id="undulatereflection">Reflection</h3>
+						<p>
+							The project was a success in that it demonstrated that the core interaction worked and could be applied further. The installation has several areas of improvement identified which could further the breadth and depth of interaction. The ability to have the installation active and improving for a week was invaluable.
+						</p>
+
+						<h4>Reflection - architecture</h4>
+						<p>
+							It would improve the project to have more sturdy building materials. Children especially wanted to climb on the structure, which would have been dangerous considering the fragile ply the structure was made of.
+						</p>
+						<p>
+							Similarly, scaling the installation up would allow it to be enjoyed by people of various sizes. This would create an interesting feedback loop of the structure being fun to play on, and influencing emotions of participants, who can then make social media posts about the structure, which inform the colour and sound of the installation.
+						</p>
+
+						<h4>Reflection - software</h4>
+						<p>
+							While initially I had hoped to gather sentiments from a variety of social medias (most importantly Instagram, which appears the most popular among students) it was quickly clear that only Twitter was easily accessible. Twitter appears to be the least used social media among students, but I thought even so there would be enough activity to create interesting movement throughout the installation. To ensure there would be movement, I used as many UQ related hashtags as I could find (although unfortunately I couldn’t use #UQ, as most of the #UQ tweets were for the company UQ Mobile). During the installation it became clear that even with all the UQ related hashtags the velocity of incoming tweets was too low to create a sense of movement across the installation (a generous estimate would be 20 per night). There were many people who wanted to interact, but didn’t have a Twitter account, or had an account but didn’t have the app anymore, and otherwise couldn’t use their devices to engage with the installation.
+						</p>
+						<p>
+							I wanted to set up a tablet where users could input their emotion manually on a 1-10 scale, but left the idea too late to implement successfully in time. This would have given non-Twitter-users the opportunity to engage with the installation while still preserving the social media based experience. This could be developed further by getting users to input messages with sentiment analysis, to avoid the issue of misrepresented sentiments, and potentially these messages could be Tweeted out to contribute to the Twitter ecosystem around the project.
+						</p>
+
+						<h4>Reflection - week-long installation</h4>
+						<p>
+							We strongly benefited from the time-frame of the project going over a week. This allowed for incremental improvements to the project, and an overall more agile approach. Our project was not in a complete form on day one, and small changes were made between days, and even during the open-time of the installation. If our installation was only open for one day none of this would have been possible, and our installation would have suffered for it.
+						</p>
 					</section>
 
 					<section id="floral">
 						<h2>Floral Symphony</h2>
-						<img src="website/images/fulls/01.jpg" alt="">
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-12"><span class="image fit"><img src="website/images/fs00.jpg" alt="Floral Symphony" /></span></div>
+							</div>
+						</div>
 						<h3 id="floralintroduction">Introduction</h3>
 						<p><em>Floral Symphony</em> was one of three interactive installations created as part of a special topic course undertaken in Semester 2, 2019. This project was a collaboration between Interaction Design, Music, and Architecture students, and was intended to explore what can be achieved through interdisciplinary collaboration. </p>
 						<p><em>Floral Symphony</em> was deployed from Monday, 21 October, until Friday, 25 October, from 4pm - 8pm as part of the 2019 UQ Bloom festival.</p>
