@@ -16,7 +16,7 @@ music==0.7b0
 numpy==1.17.2
 oauthlib==3.1.0
 paho-mqtt==1.4.0
-pyo==1.0.0
+pyo==1.0.3
 pyparsing==2.4.2
 pyserial==3.4
 PySocks==1.7.1
