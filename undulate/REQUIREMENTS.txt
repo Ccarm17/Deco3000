@@ -13,7 +13,7 @@ mido==1.2.9
 mpmath==1.1.0
 msrest==0.6.10
 music==0.7b0
-numpy==1.17.2
+numpy==1.22.0
 oauthlib==3.1.0
 paho-mqtt==1.4.0
 pyo==1.0.0
